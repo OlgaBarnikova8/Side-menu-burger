@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 @media (min-width: 767px) {
@@ -15,6 +15,33 @@
     .wraper {
         margin: 0px auto;
         padding: 0px 15px;        
+    }
+}
+
+@media (max-width: 992px) {
+    #section-1 {
+        background-image: url(img/opera.jpg);
+        background-size: contain;
+    }
+
+    #section-2 {
+        background-image: url(img/sobor.jpg);
+        background-size: contain;
+    }
+
+    #section-3 {
+        background-image: url(img/deribas.jpg);
+        background-size: contain;
+    }
+    
+    #section-4 {
+        background-image: url(img/potemkin-stairs.jpg);
+        background-size: contain;
+    }
+
+    #section-5 {
+        background-image: url(img/voroncov.jpg);
+        background-size: contain;
     }
 }
 
@@ -133,3 +160,4 @@ section {
     height: auto;
     position:relative;
 }
+
